@@ -18,7 +18,7 @@ import { FaReact } from 'react-icons/fa';
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#B17EA5',
+      main: '#FB88B4',
     },
   },
 });
@@ -55,7 +55,7 @@ export default function ButtonAppBar() {
 
         <Box sx={{ marginTop: '64px' }}>
           <Drawer anchor="left" open={menuOpen} onClose={toggleMenu} PaperProps={{
-            sx: { backgroundColor: '#F3D3EB', color: 'black' },
+            sx: { backgroundColor: '#FB88B4', color: 'black' },
           }}>
             <List>
               <ListItem button component={Link} to="/">

@@ -1,10 +1,14 @@
 *{
-  color: black;
- 
+  color: #031101;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background-color: #B7C9F2;
 }
 
 .containerP{
-  background-color: white;
+  background-color: #B7C9F2;
   padding: 10px;
   width: 100vw;
   display: flex;
